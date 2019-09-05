@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Auth::routes();
+
+Route::get('/reg-success', function () {
+    return view('reg_success');
 });
+
+
+Route::get('/', 'Main@index')->name('index');
+Route::middleware(['auth'])->post('/save', 'Main@save')->name('save');
+
