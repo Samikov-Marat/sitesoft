@@ -1,0 +1,27 @@
+.navbar-default {
+    background-color: #ffffff;
+}
+
+
+.navbar-default .navbar-link {
+    color: #00a6e8;
+}
+
+.navbar-default .navbar-text {
+    color: #000000;
+}
+
+
+
+
+.bg-white{
+    background: #ffffff;
+}
+
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+}
+
+body {
+    background-color: #b8c935;
+}
